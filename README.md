@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Alphabetical Sign Language Detection
 
 The Alphabetical Sign Language Detection project aims to create a system capable of recognizing and interpreting alphabetical signs in sign language using the Python programming language. Sign language is a visual language that relies on gestures, hand movements, and facial expressions to convey meaning.
@@ -76,3 +77,7 @@ NOTE : After collecting the data separate the 20% data for the testing the model
 ![Image_1681660340 6050572](https://github.com/poosatharun/Alphabetical-sign-language-detection/assets/107975821/8dc9f052-ce0d-4f03-bd78-89f9cb087f24)
 ### C
 ![Image_1681660469 7720032](https://github.com/poosatharun/Alphabetical-sign-language-detection/assets/107975821/dc69942b-5445-4bdc-b1bb-9f901630128b)
+=======
+# machine-learning-projects
+projects that i developed using machine learning 
+>>>>>>> 04c08dba9f119c13cd3c05ceb222339a4799d7df
