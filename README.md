@@ -20,8 +20,10 @@ Make sure to install these frameworks
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/ateeb-mudabbir/machine-learning-projects-
-cd Alphabetical-sign-language-detection
+git clone git clone https://github.com/ateeb-mudabbir/machine-learning-projects-.git
+
+cd  machine-learning-projects-
+
 ```
 
 ### 2. Install Dependencies
