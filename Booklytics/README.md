@@ -38,3 +38,37 @@ git clone https://github.com/ateeb-mudabbir/ateeb-projects-portfolio.git
 cd ateeb-projects-portfolio/Booklytics/frontend
 
 
+## 📸 Sample Data Images
+
+### 🏠 Home Page
+![Home Page](./assets/IMG-20251106-WA0006.jpg)
+
+### 📊 Analytics Dashboard
+![Analytics Dashboard](./assets/IMG-20251106-WA0007.jpg)
+
+### 📚 Book Details
+![Book Details](./assets/IMG-20251106-WA0008.jpg)
+
+### 👩‍🎓 Student Records
+![Student Records](./assets/IMG-20251106-WA0009.jpg)
+
+### 💰 Transactions Page
+![Transactions Page](./assets/IMG-20251106-WA0010.jpg)
+
+### ⚙️ Admin Dashboard
+![Admin Dashboard](./assets/IMG-20251106-WA0011.jpg)
+
+### 🔍 Analytics Charts
+![Charts](./assets/IMG-20251106-WA0012.jpg)
+
+### 🏆 Insights
+![Insights](./assets/IMG-20251106-WA0013.jpg)
+
+### 📈 Trends
+![Trends](./assets/IMG-20251106-WA0014.jpg)
+
+### 📗 Data Visualization
+![Data Visualization](./assets/IMG-20251106-WA0015.jpg)
+
+
+
