@@ -33,9 +33,12 @@ It’s deployed via **Vercel** (frontend) and connected to a **Supabase backend*
 ## ⚙️ Setup (Local)
 ```bash
 
-# Clone 
-git clone https://github.com/ateeb-mudabbir/ateeb-projects-portfolio.git
+# Clone  
+
+```bash
+git clone https://github.com/ateeb-mudabbir/ateeb-projects-portfolio.git  
 cd ateeb-projects-portfolio/Booklytics/frontend
+
 
 
 ## 📸 Sample Data Images
