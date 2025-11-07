@@ -1,77 +1,225 @@
-# 📚 Booklytics — Library Usage Analytics Platform
+## 📚 Booklytics – Library Usage & Borrowing Pattern Analysis
+The Booklytics project aims to analyze and predict library usage patterns using machine learning techniques.
+It explores how student engagement, borrowing frequency, book categories, and user demographics impact overall library utilization.
+By applying data analytics and ML models, this project identifies underutilized categories, predicts book demand, and supports smarter inventory management.
 
-Booklytics is a **data-driven web application** that analyzes and visualizes **library usage patterns** using HTML, CSS, JS, Python, and Supabase.  
-It’s deployed via **Vercel** (frontend) and connected to a **Supabase backend** for real-time data.
+🧠 Frameworks Used
+This project utilizes the following frameworks:
+
+Pandas & NumPy: For data manipulation, cleaning, and numerical computation.
+
+Matplotlib & Seaborn: For data visualization and pattern recognition.
+
+Scikit-learn: For model building and predictive analysis.
+
+TensorFlow (optional): For deep learning-based recommendation or classification tasks.
+
+Make sure to install these frameworks before running the project.
+
+🚀 Getting Started
+1. Clone the Repository
+Clone the repository to your local machine:
+
+git clone https://github.com/ateeb-mudabbir/ateeb-projects-portfolio.git
+cd ateeb-projects-portfolio/Booklytics
+2. Install Dependencies
+This project requires certain dependencies.
+It’s best practice to use a virtual environment for Python projects.
+
+a. Create a Virtual Environment
+python3 -m venv env
+b. Activate the Virtual Environment
+On Windows:
+
+.\env\Scripts\activate
+On macOS/Linux:
+
+source env/bin/activate
+c. Install Required Packages
+pip install -r requirements.txt
+🧾 3. Data Collection
+Run the Data_Collection.py script to collect or import the dataset.
+You can use:
+
+Library transaction logs (book IDs, student IDs, issue & return dates)
+
+Student demographics and department information
+
+Book categories and popularity data
+
+All data is stored inside the /dataset folder in .csv format.
+
+python Data_Collection.py
+🧩 4. Exploratory Data Analysis (EDA)
+Run the EDA_Analysis.py script to explore the dataset.
+It includes:
+
+Univariate and bivariate analysis
+
+Visualization of top borrowed genres, student activity levels, and category usage
+
+Correlation analysis between attendance, CGPA, and borrowing habits
+
+python EDA_Analysis.py
+Sample plots are stored in the /assets folder.
+
+🤖 5. Model Training
+Run the Train_Model.py script to train a machine learning model that predicts:
+
+Which category of books are likely to be borrowed next
+
+Which students are most likely to borrow specific genres
+
+Underutilized sections of the library
+
+python Train_Model.py
+This step includes:
+
+Data preprocessing
+
+Feature selection
+
+Model training using algorithms such as Logistic Regression, Random Forest, or XGBoost
+
+Accuracy evaluation and saving the model as booklytics_model.pkl
+
+🧪 6. Testing the Model
+Run the Test_Model.py script to test the trained model and evaluate predictions on unseen data.
+
+python Test_Model.py
+🖼️ Sample Data Visualizations
+🏫 Borrowing Patterns by Department
+
+📊 Top 10 Most Borrowed Categories
+
+👥 Student Engagement Distribution
+
+⚠️ Note
+After splitting the dataset, ensure 20% of data is reserved for testing to validate model accuracy.
+
+🧾
+You said:
+make as readme file 
+ChatGPT said:
+Sure! Here’s your complete README.md file for Booklytics, formatted perfectly for GitHub — ready to copy and paste into your repository.
+
+# 📚 Booklytics – Library Usage & Borrowing Pattern Analysis
+
+The **Booklytics** project aims to analyze and predict library usage patterns using machine learning techniques.  
+It explores how student engagement, borrowing frequency, book categories, and user demographics impact overall library utilization.  
+By applying data analytics and ML models, this project identifies underutilized categories, predicts book demand, and supports smarter inventory management.
 
 ---
 
-## 🌐 Live Demo
-🔗 [Vercel Deployment](https://booklyticss.vercel.app/index.html)
+## 🧠 Frameworks Used
+
+This project utilizes the following frameworks:
+
+- **Pandas & NumPy:** For data manipulation, cleaning, and numerical computation.  
+- **Matplotlib & Seaborn:** For data visualization and pattern recognition.  
+- **Scikit-learn:** For model building and predictive analysis.  
+- **TensorFlow (optional):** For deep learning-based recommendation or classification tasks.  
+
+Make sure to install these frameworks before running the project.
 
 ---
 
-## 🧠 Features
-- Interactive dashboard for library usage
-- Realtime Supabase database integration
-- Data visualization using Python
-- Deployed frontend via Vercel
-- Clean, responsive interface
+## 🚀 Getting Started
 
----
+### 1. Clone the Repository
 
-## 🏗️ Tech Stack
+Clone the repository to your local machine:
 
-| Layer | Technology | Purpose |
-|-------|-------------|----------|
-| Frontend | HTML, CSS, JS | Interface (hosted on Vercel) |
-| Backend | Supabase | Database + Realtime API |
-| Analytics | Python (Pandas, Matplotlib) | Data analysis |
-| Hosting | GitHub + Vercel | Version control + deployment |
-
----
-
-## ⚙️ Setup (Local)
 ```bash
+git clone https://github.com/ateeb-mudabbir/ateeb-projects-portfolio.git
+cd ateeb-projects-portfolio/Booklytics
+2. Install Dependencies
+This project requires certain dependencies.
+It’s best practice to use a virtual environment for Python projects.
 
-# Clone  
+a. Create a Virtual Environment
+python3 -m venv env
+b. Activate the Virtual Environment
+On Windows:
 
-```bash
-git clone https://github.com/ateeb-mudabbir/ateeb-projects-portfolio.git  
-cd ateeb-projects-portfolio/Booklytics/frontend
+.\env\Scripts\activate
+On macOS/Linux:
 
+source env/bin/activate
+c. Install Required Packages
+pip install -r requirements.txt
+🧾 3. Data Collection
+Run the Data_Collection.py script to collect or import the dataset.
+You can use:
 
+Library transaction logs (book IDs, student IDs, issue & return dates)
 
-## 📸 Sample Data Images
+Student demographics and department information
 
-### 🏠 Home Page
-![Home Page](./assets/IMG-20251106-WA0006.jpg)
+Book categories and popularity data
 
-### 📊 Analytics Dashboard
-![Analytics Dashboard](./assets/IMG-20251106-WA0007.jpg)
+All data is stored inside the /dataset folder in .csv format.
 
-### 📚 Book Details
-![Book Details](./assets/IMG-20251106-WA0008.jpg)
+python Data_Collection.py
+🧩 4. Exploratory Data Analysis (EDA)
+Run the EDA_Analysis.py script to explore the dataset.
+It includes:
 
-### 👩‍🎓 Student Records
-![Student Records](./assets/IMG-20251106-WA0009.jpg)
+Univariate and bivariate analysis
 
-### 💰 Transactions Page
-![Transactions Page](./assets/IMG-20251106-WA0010.jpg)
+Visualization of top borrowed genres, student activity levels, and category usage
 
-### ⚙️ Admin Dashboard
-![Admin Dashboard](./assets/IMG-20251106-WA0011.jpg)
+Correlation analysis between attendance, CGPA, and borrowing habits
 
-### 🔍 Analytics Charts
-![Charts](./assets/IMG-20251106-WA0012.jpg)
+python EDA_Analysis.py
+Sample plots are stored in the /assets folder.
 
-### 🏆 Insights
-![Insights](./assets/IMG-20251106-WA0013.jpg)
+🤖 5. Model Training
+Run the Train_Model.py script to train a machine learning model that predicts:
 
-### 📈 Trends
-![Trends](./assets/IMG-20251106-WA0014.jpg)
+Which category of books are likely to be borrowed next
 
-### 📗 Data Visualization
-![Data Visualization](./assets/IMG-20251106-WA0015.jpg)
+Which students are most likely to borrow specific genres
 
+Underutilized sections of the library
 
+python Train_Model.py
+This step includes:
+
+Data preprocessing
+
+Feature selection
+
+Model training using algorithms such as Logistic Regression, Random Forest, or XGBoost
+
+Accuracy evaluation and saving the model as booklytics_model.pkl
+
+🧪 6. Testing the Model
+Run the Test_Model.py script to test the trained model and evaluate predictions on unseen data.
+
+python Test_Model.py
+🖼️ Sample Data Visualizations
+🏫 Borrowing Patterns by Department
+
+📊 Top 10 Most Borrowed Categories
+
+👥 Student Engagement Distribution
+
+⚠️ Note
+After splitting the dataset, ensure 20% of data is reserved for testing to validate model accuracy.
+
+🧾 Summary
+Data collected from 6,000+ student library transactions
+
+Comprehensive EDA process revealing key borrowing trends
+
+Trained ML model to predict demand and underutilized categories
+
+Provides actionable insights to optimize library management and student engagement
+
+🧑‍💻 Author
+Syed Mohammed Ateeb Mudabbir
+Data Science & ML Enthusiast | Computer Science Undergraduate
+📧 ateebmudabbir@gmail.com
+🌐 GitHub Profile
 
